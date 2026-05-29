@@ -4,7 +4,7 @@ import Templates from "@/pages/Templates";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/sms-tool">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/templates" element={<Templates />} />
